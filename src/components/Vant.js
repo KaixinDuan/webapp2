@@ -1,0 +1,74 @@
+import Vue from "vue";
+import {
+  Icon,
+  Tab,
+  Tabs,
+  List,
+  Cell,
+  Button,
+  Popup,
+  Field,
+  Dialog,
+  Toast,
+  Swipe,
+  SwipeItem,
+  Area,
+  NavBar,
+  CellGroup,
+  Image,
+  Sticky,
+  Grid,
+  GridItem,
+  Lazyload,
+  Search,
+  Card,
+  IndexBar,
+  IndexAnchor,
+  Uploader,
+  Form,
+  DatetimePicker,
+  Calendar,
+  Sku,
+  Tag,
+  Notify,
+  Empty,
+  Picker,
+  Tabbar, TabbarItem
+} from "vant";
+import 'vant/lib/index.css';
+import { search } from "core-js/fn/symbol";
+Vue.use(Icon);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(List);
+Vue.use(Cell);
+Vue.use(Button);
+Vue.use(Popup);
+Vue.use(Field);
+Vue.use(Dialog);
+Vue.use(Toast);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Area);
+Vue.use(NavBar);
+Vue.use(CellGroup);
+Vue.use(Image);
+Vue.use(Sticky);
+Vue.use(Grid);
+Vue.use(GridItem);
+Vue.use(Lazyload);
+Vue.use(Search);
+Vue.use(Card);
+Vue.use(IndexBar);
+Vue.use(IndexAnchor);
+Vue.use(Uploader);
+Vue.use(Form);
+Vue.use(DatetimePicker);
+Vue.use(Calendar);
+Vue.use(Sku);
+Vue.use(Tag);
+Vue.use(Notify);
+Vue.use(Empty);
+Vue.use(Picker); 
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
